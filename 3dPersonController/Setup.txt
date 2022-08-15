@@ -1,0 +1,58 @@
+---
+Player:
+	-	Empty GameObject, Player
+			Make sure none of the childs have colliders or rigidbodies and the whole group is in a custom player layer
+		Transform
+		Capsule Collider (the scripts are based on Capsule Colliders)
+		Rigidbody
+		Player Controller, script
+		Player Movement, script
+		(Animator)
+		(Audio Listener)
+
+		-	Empty GameObject, Graphics
+			Transform
+
+			-	Empty PlayerGraphics, Sprites etc.
+				Transform
+			-	...
+
+		-	Empty GameObject, Camera Lookat
+		Transform
+
+		-	Empty GameObject, Ceiling
+		Transform, Position: Player/CapsuleCollider, Capsule Top -  Capsule Radius
+
+---
+Camera:
+	-	Camera, Camera
+		Transform
+		Camera
+		Camera Controller, script
+
+___
+Scripts Inspector:
+	-	Player Controller
+			Make sure to fill all the SerializeField and Public variables in the inspector
+		GameObjects
+			Double Ceiling, Add GameObject Player/Ceiling
+			CamLookAt, Add GameObject Player/Camera Lookat
+
+		LayerMask, Everything except the player layer
+
+		Air Control, Define what you want before starting the game
+
+	-	Player Movement
+			Controller, Add Player/Player Controller script
+
+			Animator, Add Player/Animator Componement
+				If you do not want an animator, open the script and remove all the lines containing "animator" (Lines 8, 60, 61)
+				If you do want Animations, you may want to change or add some parameters (Lines 60, 61)
+
+	-	Camera Controller
+			GameObject Player, Add GameObject Player/Camera Lookat
+
+			LayerMask, Everything except the player layer
+
+			Controller, Add Player/Player Controller script
+			

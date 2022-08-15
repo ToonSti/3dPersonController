@@ -1,0 +1,38 @@
+General object movement: 
+    https://gamedevbeginner.com/how-to-move-objects-in-unity/ 
+
+Smoothened movement with SmoothDamp: 
+    https://www.youtube.com/watch?v=krA-B8yItc0 
+
+GroundCheck so the player cant doublejump or move in air: 
+    https://www.youtube.com/watch?v=Ekfio0gfn-Y
+GroundCheck for checking slopes
+    https://www.immersivelimit.com/tutorials/simple-character-controller-for-unity
+    https://www.youtube.com/watch?v=j41UHuA1bLM
+GroundCheck for ledges and Checking slopes:
+    https://answers.unity.com/questions/1543673/spherecast-for-ground-check-glitch.html
+
+Player rotation: 
+    https://www.youtube.com/watch?v=BJzYGsMcy8Q
+
+Scripting Reference (did not use a specific one, but is useful in general): 
+    https://docs.unity3d.com/ScriptReference/ 
+
+2D character controller: 
+    https://www.youtube.com/watch?v=dwcT-Dch0bA
+
+Animations:
+    https://www.youtube.com/watch?v=hkaysu1Z-N8
+
+Camera Raycast:
+    https://docs.unity3d.com/ScriptReference/Physics.Raycast.html
+    https://www.youtube.com/watch?v=EINgIoTG8D4
+    https://medium.com/nerd-for-tech/unity-calculating-the-direction-to-another-gameobject-438f1301eaea
+    https://www.youtube.com/watch?v=vqc9f7HU-Vc
+
+Other: 
+    https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+    https://docs.unity3d.com/ScriptReference/Animator-speed.html
+
+    https://stackoverflow.com/questions/70167719/how-to-make-camera-not-go-through-the-walls-and-objects-in-unity3d
+    https://answers.unity.com/questions/473917/how-to-prevent-camera-from-moving-through-meshes.html
